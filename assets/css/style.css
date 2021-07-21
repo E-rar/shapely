@@ -4,11 +4,14 @@ body{
     font-family:Raleway,sans-serif;
     margin:0;
 }
-a{
+
+ a{
     text-decoration:none;
 }
-a:hover{
+header a:hover{
     color:#337ab7
+}header{
+    height:13vh;
 }
 ul{
     list-style:none;
@@ -33,4 +36,56 @@ nav{
 }
 .logo:hover{
     color:#333;
+}
+/*beginne den Hero zu stylen */
+#hero{
+    background-image:url("../img/photo-1443527216320-7e744084f5a7-1.jpg");
+    background-position: center;
+    background-attachment: cover;
+    background-repeat: no-repeat;
+    height:90vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#hero div{
+    color:white;
+    text-align:center;
+}
+#hero div h1{
+    font-size:7vh;
+}
+#hero div h6{
+    font-size:2vh;
+}
+#readMore{
+    font-size:1.5vh;
+    font-weight: 800;
+    text-decoration: none;
+    background-color:#745cf9;
+    padding:2.5vh 6.5vh;
+    color:#fff;
+    font-size:1.5vh;
+    font-weight: 800;
+}
+#readMore:hover{
+    background-color:#5234f9;
+
+}
+#downloadNow{
+    max-width:2vh;
+    font-size:1.5vh;
+    font-weight: 800;
+    text-decoration: none;
+    background-color:#f3f3f300;
+    padding:2vh 3.5vh;
+    border:0.5vh solid #fff;
+    color:#fff;
+    margin:0.5vh;
+}
+#downloadNow:hover{
+    color:#000;
+    background-color:#fff;
+    
 }
